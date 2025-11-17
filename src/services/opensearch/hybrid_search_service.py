@@ -6,7 +6,7 @@
 # Created: [02-11-2025]
 # Updated: [02-11-2025]
 # LAST MODIFIED BY: LALAN KUMAR  [https://github.com/kumar8074]
-# Version: 1.0.0
+# Version: 1.1.0
 # ===================================================================================
 
 import os

@@ -6,7 +6,7 @@
 # Created: [02-11-2025]
 # Updated: [02-11-2025]
 # LAST MODIFIED BY: LALAN KUMAR
-# Version: 1.0.0
+# Version: 1.1.0
 # ===================================================================================
 
 import json
