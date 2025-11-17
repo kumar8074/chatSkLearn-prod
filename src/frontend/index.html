@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat SkLearn</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-dark.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+</head>
+<body>
+    <div class="sidebar">
+        <div class="sidebar-header">
+            <div class="menu-icon">☰</div>
+            <div class="sidebar-title">THREADS</div>
+        </div>
+
+        <input type="text" class="search-box" placeholder="Search threads...">
+
+        <div class="thread-section">
+            <div class="section-title">YESTERDAY</div>
+        </div>
+
+        <div class="thread-section">
+            <div class="section-title">PREVIOUS 7 DAYS</div>
+        </div>
+
+        <div class="sidebar-footer">
+            <div class="footer-item">
+                <div class="footer-icon"></div>
+                <div class="footer-content">
+                    <div class="footer-title">LangSmith</div>
+                    <div class="footer-subtitle">Monitoring & Tracing</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <div class="top-bar">
+            <div class="logo-section">
+                <div class="logo"></div>
+                <div class="app-title">Chat SkLearn</div>
+            </div>
+            <div class="top-actions">
+                <button class="icon-btn">⚙️</button>
+                <button class="new-chat-btn">✨ New Chat</button>
+            </div>
+        </div>
+
+        <div class="chat-area">
+            <div class="welcome-logo"></div>
+            <h1 class="welcome-text">What can I help with</h1>
+            
+            <div class="input-container">
+                <button class="attach-btn">+</button>
+                <input type="text" class="chat-input" placeholder="Ask me anything about Scikit-learn...">
+            </div>
+
+            <div class="model-selector">
+                <select class="model-dropdown">
+                    <option>Gemini-2.5-Flash (Default)</option>
+                    <option>Claude Sonnet 4.5</option>
+                    <option>GPT-4</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <script src="/static/chat.js"></script>
+</body>
+</html>
