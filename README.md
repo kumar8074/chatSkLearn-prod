@@ -5,7 +5,7 @@
 [![LangGraph](https://img.shields.io/badge/LangGraph-Latest-FF6B6B?style=for-the-badge&logo=langchain&logoColor=white)](https://github.com/langchain-ai/langgraph)
 [![Apache Airflow](https://img.shields.io/badge/Airflow-2.10.4-017CEE?style=for-the-badge&logo=apache-airflow&logoColor=white)](https://airflow.apache.org)
 [![OpenSearch](https://img.shields.io/badge/OpenSearch-2.19.0-005EB8?style=for-the-badge&logo=opensearch&logoColor=white)](https://opensearch.org)
-[![Langfuse](https://img.shields.io/badge/Langfuse-Latest-4F46E5?style=for-the-badge&logo=langfuse&logoColor=white)](https://langfuse.com)
+[![Langfuse](https://img.shields.io/badge/Langfuse-Latest-4F46E5?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNDAiIGhlaWdodD0iMTAwIj48cGF0aCBkPSJNMTAwLDUwIEwxNDAsODAgTDIwMCwxMCIgZmlsbD0iI0U3RkYwMyIvPjxwYXRoIGQ9Ik0xMDAsNTAgbC00MCwzMCAgTDAgNTAgbDQwLTMwIEwyMDAsMTAgbC0yMCwyMCAiIGZpbGw9IiNGQzI0MjUiLz48L3N2Zz4=)](https://langfuse.com)
 [![Docker](https://img.shields.io/badge/Docker-Latest-1D63ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
 [![uv](https://img.shields.io/badge/uv-Latest-FA6E32?style=for-the-badge&logo=uv&logoColor=white)](https://github.com/astral-sh/uv)
 
