@@ -1,6 +1,15 @@
 # ChatSkLearn 
 
-**A production-grade RAG system that doesn't just answer questions—it thinks, plans, and executes.**
+[![Python 3.12](https://img.shields.io/badge/Python-3.12-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/downloads/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.115-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
+[![LangGraph](https://img.shields.io/badge/LangGraph-Latest-FF6B6B?style=for-the-badge&logo=langchain&logoColor=white)](https://github.com/langchain-ai/langgraph)
+[![Apache Airflow](https://img.shields.io/badge/Airflow-2.10.4-017CEE?style=for-the-badge&logo=apache-airflow&logoColor=white)](https://airflow.apache.org)
+[![OpenSearch](https://img.shields.io/badge/OpenSearch-2.19.0-005EB8?style=for-the-badge&logo=opensearch&logoColor=white)](https://opensearch.org)
+[![Langfuse](https://img.shields.io/badge/Langfuse-Latest-4F46E5?style=for-the-badge&logo=langfuse&logoColor=white)](https://langfuse.com)
+[![Docker](https://img.shields.io/badge/Docker-Latest-1D63ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
+[![uv](https://img.shields.io/badge/uv-Latest-FA6E32?style=for-the-badge&logo=uv&logoColor=white)](https://github.com/astral-sh/uv)
+
+> **A production-grade RAG system that doesn't just answer questions—it thinks, plans, and executes.**
 
 Most RAG implementations are glorified search wrappers. ChatSkLearn is different. We built an intelligent assistant that understands context, plans research strategies, and delivers answers with source citations.
 
