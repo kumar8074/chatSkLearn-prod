@@ -198,8 +198,18 @@ async def respond(
     state: AgentState
 ) -> dict[str, list[BaseMessage]]:
     """Generate a final response to the user's query based on the conducted research."""
-    
-    prompt = RESPONSE_SYSTEM_PROMPT
+
+    docs = state.get("documents", [])
+    context_blocks = []
+
+    for doc in docs:
+        url = doc.metadata.get("source_url", "")
+        text = doc.page_content
+        context_blocks.append(f"[URL: {url}\n{text}]")
+
+    context = "\n\n".join(context_blocks)
+
+    prompt = RESPONSE_SYSTEM_PROMPT.format(context=context)
     messages = [
         {"role": "system", "content": prompt + "\n\nIMPORTANT: Always preserve code blocks with ```python and ``` markers. Never modify code content."}
     ] + state['messages']
